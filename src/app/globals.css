@@ -1,4 +1,4 @@
-@import "tailwindcss/preflight";
+/* @import "tailwindcss/preflight"; */
 @tailwind utilities;
 @tailwind base;
 @tailwind components;
@@ -10,11 +10,7 @@
   }
 }
 
-@layer base {
-  body {
-    @apply bg-background text-foreground;
-  }
-}
+
 
 @theme inline {
   --color-background: var(--background);
